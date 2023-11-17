@@ -1,12 +1,12 @@
 package com.helloworld.greet;
 
-public class Students {
+public class Student {
 
     private final String name;
     private final int age;
     private final String nationality;
 
-    public Students(String name, int age, String nationality) {
+    public Student(String name, int age, String nationality) {
         this.name = name;
         this.age = age;
         this.nationality = nationality;

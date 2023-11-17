@@ -9,11 +9,11 @@ import java.util.List;
 public class StudentController {
 
     @GetMapping("/students")
-    public List<Students> students() {
+    public List<Student> students() {
 
-        Students student1 = new Students("John", 20, "American");
-        Students student2 = new Students("Mary", 19, "French");
-        Students student3 = new Students("Kenta", 22, "Japanese");
+        Student student1 = new Student("John", 20, "American");
+        Student student2 = new Student("Mary", 19, "French");
+        Student student3 = new Student("Kenta", 22, "Japanese");
 
         return List.of(student1, student2, student3);
     }
